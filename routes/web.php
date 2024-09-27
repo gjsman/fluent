@@ -10,6 +10,13 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/setup', function () {
+    if (InstalledVersions::isInstalled('livewire/flux-pro')) {
+        return redirect()->route('dashboard');
+    }
+    return view('setup');
+})->name('setup');
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
@@ -18,13 +25,6 @@ Route::middleware([
     Route::get('/dashboard', function () {
         return view('dashboard');
     })->name('dashboard');
-
-    Route::get('/setup', function () {
-        if (InstalledVersions::isInstalled('livewire/flux-pro')) {
-            return redirect()->route('dashboard');
-        }
-        return view('setup');
-    })->name('setup');
 
     // Jetstream's default logout route uses a hidden form with CSRF token, submitted via JS as a POST request.
     // This alternative uses a user-specific signed route, losing no security while improving Flux compatibility.
