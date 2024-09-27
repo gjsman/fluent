@@ -32,6 +32,7 @@
                 <li>Run <code>git init</code></li>
                 <li>Run <code>git add .</code></li>
                 <li>Run <code>git commit -m "Initial commit"</code></li>
+                <li><a href="https://github.com/gjsman/fluent" target="_blank">Leave a star on GitHub</a></li>
             </ol>
             <p>That's it! <a href="/">Visit your site!</a></p>
         </div>
