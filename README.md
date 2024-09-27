@@ -24,6 +24,9 @@ A license for Flux (technically, "Flux Pro") is required to use Fluent. Fluent d
 
 The good news is that Caleb Porzio is a great guy, he gave us Livewire for free, you'll make the $129 back in a few hours, and he gives out Purchasing Power Parity (PPP) discounts. Considering this starter kit and Flux will save you weeks, it's a great deal.
 
+## Note about Folio
+A version of this starter kit which uses Folio for non-Jetstream routes is available at https://github.com/gjsman/fluent-folio. 
+
 ## Installation
 1. Clone the repository
 2. Run `composer install`
