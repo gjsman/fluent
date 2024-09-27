@@ -12,6 +12,7 @@ You can also feel comfortable knowing you aren't starting with any forks. The ba
 ![Dashboard](resources/img/fluent-3.png)
 ![Login](resources/img/fluent-1.png)
 ![Profile settings](resources/img/fluent-2.png)
+![Dark mode profile settings](resources/img/fluent-4.png)
 
 ## Supported features
 Everything in Jetstream except for API Tokens and Teams. Because Jetstream has not been modified, the backend is still there if you want to build UI for it. You probably would've needed to make changes anyway.
